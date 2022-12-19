@@ -1,0 +1,12 @@
+body{
+    background-image: url(https://boasnovasmg.com.br/wp-content/uploads/2018/06/nature-3294632_1920.jpg); 
+    background-size: cover; 
+
+}
+.col{
+    border-radius: 10px;
+    margin-top: 20%;
+    opacity: 0.85; 
+    color:white;
+}
+

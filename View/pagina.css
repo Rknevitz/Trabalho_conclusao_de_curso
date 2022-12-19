@@ -1,0 +1,61 @@
+body{
+    background: rgb(3, 54, 14);
+}
+nav{
+    background: rgb(6, 141, 6);
+}
+p{
+   font-size: 120%;
+   color: white;
+}
+svg{
+    color: white; 
+}
+dd,dt{
+  font-size: 120%;
+  color: white;
+}
+h3{
+  color: white; 
+  font-size: 150%;
+}
+ .carousel-inner img {
+    width: 100%;
+    height:300px;
+  }
+  .carousel .carousel-indicators li.active {
+    color: white;
+  }
+  .carousel-control-next,.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active{
+  background:#babcc4 !important;
+  color:#fff !important;
+  border-color:#babcc4 !important
+}
+input{
+  color: black;
+  font-size: 100%; 
+}
+.foto-user{
+  width: 40px; height: 40px; border-radius:50%;
+}
+.chat-i{
+  background: linear-gradient(to left,rgb(145, 212, 172) ,rgb(107, 194, 107) 60%);
+  background-color: rgb(4, 54, 18);
+  border-radius: 10px;
+  color:black;
+  width: 45%;
+  margin-left: 50%;
+  text-align:center;
+  font-size: 30px;
+}
+.chat-x{
+  background: linear-gradient(to left,rgb(29, 71, 29),rgb(11, 108, 50)  60%);
+  border-radius: 10px;
+  width: 55%;
+  text-align:center;
+  font-size: 30px;
+}

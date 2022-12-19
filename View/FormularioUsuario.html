@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Fotos/apple-touch-icon.png">
+    <link rel="icon" href="../Fotos/android-chrome-512x512.png">
+    <link rel="icon" href="../Fotos/android-chrome-192x192.png">
+    <link rel="icon" href="../Public/Resource/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../View/pagina.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Recicle Knevitz</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="../Fotos/logo.png" alt="logo" class=" rounded-circle mx-auto d-block" style="width: 50%">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item px-md-5">
+
+                    <a class="nav-link" aria-current="page" href="Login.html">
+                        <img class="mx-auto d-block" style="width: 40%">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                            class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z" />
+                            <path fill-rule="evenodd"
+                                d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+                        </svg>
+                        </img>
+                        <h3> Voltar </h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <form class="was-validated" action="FormularioUsu.php" method="POST" enctype="multipart/form-data">
+    <div class="container">
+        <div class="row">
+                <div style="border-radius: 10px;background-color: rgb(6, 141, 6); margin-top: 50px; margin-right: 10px;"class="col-sm-12">
+                    <h3>Cadastro do Usuário</h3>
+                    <div class="form-group">
+                        <label for="inputnome3" class="col-sm-2 col-form-label"></label>
+                        <div class="col-sm-12">
+                            <input name="nomeUsu" type="text" class="form-control" placeholder="Informe seu Nome:" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                    <label for="inputemail3" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-12">
+                        <input name="emailUsu" type="email" class="form-control" id="inputEmail3"
+                        placeholder=" Informe seu E-mail:" required>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-12">
+                        <input name="senhaUsu" type="password" class="form-control" id="inputPassword3"
+                            placeholder="Informe sua Senha:"required>             
+                    </div>
+                    </div>
+                    <div class="form-group">
+                    <label class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-12">
+                        <input name="celUsu" type="text" class="form-control" id="number3"
+                            placeholder="Informe o número de celular: " required>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="number3" class="col-sm-2 col-form-label"></label>
+                        <div class="col-sm-12">
+                            <input name="fotoUsu" type="file" class="form-control" aria-label="file example"
+                                placeholder="Selecione uma foto: " required>
+                    </div>
+                    </div>
+                    <button style="margin-bottom: 5px; margin-top: 15px;background:#02240c ; color: white;"
+                    type="reset" class="btn btn-dark">Limpar</button>
+
+                <button style="margin-bottom: 5px; margin-top: 15px;background:#02240c ; color: white;"
+                    type="submit" class="btn btn-dark"> <a href="Login.html" style="color:white;">
+                        <h5 style="font-size: 100%">Salvar</h5>
+                    </a></button>
+                   
+                </div>
+
+      
+        </div>
+    </div>
+</form>
+</body>
+</html>
